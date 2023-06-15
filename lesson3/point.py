@@ -18,7 +18,7 @@ class Point:
         return f'{self.__class__.__name__}({self.x}, {self.y}))'
 
     def __str__(self):
-        return f'{self.x}{self.y}'
+        return f'({self.x}, {self.y})'
 
     def __add__(self, other):
         return Point(self.x + other.x, self.y + other.y)
